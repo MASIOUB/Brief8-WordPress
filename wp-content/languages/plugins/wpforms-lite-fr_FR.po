@@ -7,7 +7,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/3.0.0\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
 "Language: fr\n"
 "Project-Id-Version: Plugins - Contact Form by WPForms &#8211; Drag &amp; Drop Form Builder for WordPress - Stable (latest release)\n"
 
@@ -1396,7 +1396,7 @@ msgstr "Modifier le formulaire"
 msgid "Go to WPForms Settings page"
 msgstr "Aller à la page des réglages de WPForms"
 
-#: src/Integrations/Gutenberg/FormSelector.php:253
+#: src/Integrations/Gutenberg/FormSelector.php:311
 msgid "The form cannot be displayed."
 msgstr "Le formulaire ne peut pas être affiché."
 
@@ -1841,17 +1841,12 @@ msgstr "Support & Docs"
 
 #: lite/templates/education/admin/did-you-know.php:42
 #: lite/templates/education/admin/did-you-know.php:56
-#: lite/templates/education/admin/notice-bar.php:34
+#: lite/templates/education/admin/notice-bar.php:35
 #: lite/templates/education/builder/did-you-know.php:31
 #: lite/templates/education/builder/lite-connect/top-bar.php:26
 #: lite/wpforms-lite.php:98
 msgid "Dismiss this message."
 msgstr "Ignorer ce message."
-
-#. translators: %s - WPForms.com Upgrade page URL.
-#: lite/templates/education/admin/notice-bar.php:21
-msgid "You're using WPForms Lite. To unlock more features consider <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">upgrading to Pro</a>."
-msgstr "Vous utilisez WPForms Lite. Pour débloquer plus de fonctionnalités, envisagez de passer à la version <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Pro</a>."
 
 #. translators: %s - CAPTCHA name.
 #: src/Admin/Education/Builder/Captcha.php:176
@@ -2083,10 +2078,6 @@ msgstr "Uniquement la version Lite peut être mise à niveau."
 msgid "Paste license key here"
 msgstr "Coller la clé de licence ici"
 
-#: includes/admin/settings-api.php:140
-msgid "Already purchased?  Simply enter your license key below to connect with WPForms PRO!"
-msgstr "Déjà acheté ? Saisissez simplement votre clé de licence ci-dessous pour vous connecter avec WPForms Pro !"
-
 #: includes/admin/class-about.php:279
 msgid "The WPForms Team"
 msgstr "L’équipe WPForms"
@@ -2208,19 +2199,19 @@ msgstr "<strong>Checkbox reCAPTCHA v2</strong> : demande aux utilisateurs ou ut
 msgid "Google offers 3 versions of reCAPTCHA (all supported within WPForms):"
 msgstr "Google propose 3 versions de reCAPTCHA (toutes prises en charge par WPForms) :"
 
-#: src/Integrations/Gutenberg/FormSelector.php:106
+#: src/Integrations/Gutenberg/FormSelector.php:151
 msgid "Check out our complete guide!"
 msgstr "Consultez notre guide complet !"
 
-#: src/Integrations/Gutenberg/FormSelector.php:105
+#: src/Integrations/Gutenberg/FormSelector.php:150
 msgid "Do not forget to test your form."
 msgstr "N’oubliez pas de tester votre formulaire."
 
-#: src/Integrations/Gutenberg/FormSelector.php:96
+#: src/Integrations/Gutenberg/FormSelector.php:141
 msgid "survey"
 msgstr "enquête"
 
-#: src/Integrations/Gutenberg/FormSelector.php:95
+#: src/Integrations/Gutenberg/FormSelector.php:140
 msgid "contact"
 msgstr "contact"
 
@@ -2539,7 +2530,6 @@ msgstr "Tirez le meilleur parti de <strong>WPForms</strong> &mdash; utilisez-le 
 msgid "Try Constant Contact for Free"
 msgstr "Essayer Constant Contact gratuitement"
 
-#: includes/admin/settings-api.php:143
 #: includes/providers/class-constant-contact.php:535
 msgid "Connect"
 msgstr "Connecter"
@@ -2586,7 +2576,7 @@ msgstr "Votre type de clé de licence est %s."
 msgid "Deactivate Key"
 msgstr "Désactiver la clé"
 
-#: includes/admin/settings-api.php:160
+#: includes/admin/settings-api.php:143 includes/admin/settings-api.php:160
 msgid "Verify Key"
 msgstr "Vérifier la clé"
 
@@ -4097,7 +4087,7 @@ msgstr "Veuillez sélectionner au moins un formulaire à importer."
 
 #: includes/admin/admin.php:177 includes/admin/builder/class-builder.php:540
 #: src/Admin/Education/Builder/Captcha.php:156
-#: src/Integrations/Gutenberg/FormSelector.php:104 wpforms.php:152
+#: src/Integrations/Gutenberg/FormSelector.php:149 wpforms.php:152
 msgid "Heads up!"
 msgstr "Attention !"
 
@@ -4201,7 +4191,7 @@ msgstr "Petit rappel ! N’oubliez pas de tester votre formulaire. <a href=\"%s
 
 #: includes/admin/admin.php:158 includes/admin/builder/class-builder.php:530
 #: includes/admin/class-editor.php:105 src/Admin/Education/Core.php:92
-#: src/Forms/Locator.php:332 src/Lite/Admin/Education/LiteConnect.php:234
+#: src/Forms/Locator.php:340 src/Lite/Admin/Education/LiteConnect.php:234
 #: templates/builder/help.php:33
 msgid "Close"
 msgstr "Fermer"
@@ -6500,12 +6490,12 @@ msgid "%s Preview"
 msgstr "Aperçu de %s"
 
 #: src/Integrations/Divi/WPFormsSelector.php:77
-#: src/Integrations/Gutenberg/FormSelector.php:103
+#: src/Integrations/Gutenberg/FormSelector.php:148
 msgid "Show Description"
 msgstr "Afficher la description"
 
 #: src/Integrations/Divi/WPFormsSelector.php:67
-#: src/Integrations/Gutenberg/FormSelector.php:102
+#: src/Integrations/Gutenberg/FormSelector.php:147
 msgid "Show Title"
 msgstr "Afficher le titre"
 
@@ -6513,25 +6503,25 @@ msgstr "Afficher le titre"
 #: src/Integrations/Divi/WPFormsSelector.php:60
 #: src/Integrations/Elementor/Widget.php:115
 #: src/Integrations/Elementor/Widget.php:143
-#: src/Integrations/Gutenberg/FormSelector.php:101
+#: src/Integrations/Gutenberg/FormSelector.php:146
 #: templates/emails/summary-body-plain.php:32
 #: templates/emails/summary-body.php:59
 msgid "Form"
 msgstr "Formulaire"
 
-#: src/Integrations/Gutenberg/FormSelector.php:100
+#: src/Integrations/Gutenberg/FormSelector.php:145
 msgid "Form Settings"
 msgstr "Réglages du formulaire"
 
-#: src/Integrations/Gutenberg/FormSelector.php:99
+#: src/Integrations/Gutenberg/FormSelector.php:144
 msgid "Select a Form"
 msgstr "Sélectionnez un formulaire"
 
-#: src/Integrations/Gutenberg/FormSelector.php:94
+#: src/Integrations/Gutenberg/FormSelector.php:139
 msgid "form"
 msgstr "formulaire"
 
-#: src/Integrations/Gutenberg/FormSelector.php:92
+#: src/Integrations/Gutenberg/FormSelector.php:137
 msgid "Select and display one of your forms."
 msgstr "Sélectionnez et affichez un de vos formulaires."
 
@@ -7013,7 +7003,7 @@ msgstr "est une fonctionnalité Pro"
 #: src/Emails/Templates/General.php:93 src/Integrations/Divi/Divi.php:207
 #: src/Integrations/Divi/WPFormsSelector.php:35
 #: src/Integrations/Elementor/Widget.php:41
-#: src/Integrations/Gutenberg/FormSelector.php:91
+#: src/Integrations/Gutenberg/FormSelector.php:136
 #: src/Lite/Admin/DashboardWidget.php:173
 #: templates/admin/dashboard/widget/settings.php:42
 msgid "WPForms"
